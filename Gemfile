@@ -21,11 +21,13 @@ end
 
 gem 'jquery-rails'
 gem 'faker'
+gem 'cache_digests'
+gem 'rack-mini-profiler'
 
 group :development, :test do
   gem 'rspec-rails'
   gem 'pry-rails'
-  gem 'pry-doc'
+  # gem 'pry-doc'
   gem 'hirb'
 end
 
