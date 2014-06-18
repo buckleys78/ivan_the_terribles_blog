@@ -1,9 +1,17 @@
 # My New Blog!
 
-I've got a lot to say, and now I have a place to say it!!!!!
+# Authored by ?, Revisions by Steve Buckley
 
-Read all my amazing posts!!!!! You can load them into the app with: `rake load:blog`
+# Speedup implementations:
+>  Rack Deflate
+>  Russian Doll Caching
+>  Eager Loading
 
-Since I know you want to read them all, I designed my page to show EVERYTHING on the front page of the site!!!!!
+# Reduced load times from original 20 seconds to under 5 seconds.
 
-I know it is a little slow (but totes worth it!!!!)... _Do you know how I can make it faster?_
+# Additional future configurations:
+>  replace Render posts with post loop.
+>  Use in-memory cache store.
+>  Pagination, spinners.
+>  Upgrade Rails to v4.
+>  Apache or nginx to serve static pages.
